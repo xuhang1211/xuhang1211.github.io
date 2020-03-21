@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-21T13:06:01.515Z</updated>
+  <updated>2020-03-21T13:16:18.114Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,79 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>google浏览器下载视频</title>
+    <link href="http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
+    <id>http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</id>
+    <published>2020-03-21T13:16:04.000Z</published>
+    <updated>2020-03-21T13:16:18.114Z</updated>
+    
+    <content type="html"><![CDATA[<p>打开你需要下载视频的网站，F12，点击network,F5刷新，找到视频文件，<br>通常文件大小最大的那个即为当前播放视频文件，点击视频文件，<br>找到Headers下面的Request URL复制这个地址，<br>打开这个视频网页，右键另存为本地</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;打开你需要下载视频的网站，F12，点击network,F5刷新，找到视频文件，&lt;br&gt;通常文件大小最大的那个即为当前播放视频文件，点击视频文件，&lt;br&gt;找到Headers下面的Request URL复制这个地址，&lt;br&gt;打开这个视频网页，右键另存为本地&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hosts使用</title>
+    <link href="http://yoursite.com/2020/03/21/hosts%E4%BD%BF%E7%94%A8/"/>
+    <id>http://yoursite.com/2020/03/21/hosts%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-03-21T13:15:10.000Z</published>
+    <updated>2020-03-21T13:15:29.524Z</updated>
+    
+    <content type="html"><![CDATA[<p>1Hosts具体作用</p><p>（1）虚拟域名</p><p>很多时候，网站建设者需要把”软环境“搭建好，再进行上传调试。但类似于邮件服务，则需要使用域名来辅助调试，这时就可以将本地 IP 地址与一个”虚拟域名“做地址指向，就可以达到要求的效果，且无需花费。</p><p>如：<br>127.0.0.1 <a href="http://www.gg.com" target="_blank" rel="noopener">www.gg.com</a> 之后在浏览器地址栏中输入对应的网站域名即可。</p><p>（2）加快域名解析</p><p>对于要经常访问的网站，我们可以通过在Hosts中配置域名和IP的映射关系，提高域名解析速度，当我们输入域名计算机就能很快解析出IP，而不用请求网络上的DNS服务器。</p><p>（3）屏蔽网站（域名重定向）</p><p>有很多网站不经过用户同意就将各种各样的插件安装到你的计算机中，其中有些说不定就是木马或病毒。对于这些网站我们可以利用Hosts把该网站的域名映射到错误的IP或本地计算机的IP，这样就不用访问了。在WINDOWS系统中，约定 127.0.0.1 为本地计算机的IP地址, 0.0.0.0是错误的IP地址。</p><p>如果，我们在Hosts中，写入以下内容：</p><p>127.0.0.1 # 要屏蔽的网站 A</p><p>0.0.0.0 # 要屏蔽的网站 B</p><p>如：</p><p>127.0.0.1  <a href="http://www.hao123.com" target="_blank" rel="noopener">www.hao123.com</a><br>127.0.0.1  <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a><br>这样，计算机解析域名A和 B时，就解析到本机IP或错误的IP，达到了屏蔽网站A 和B的目的。</p><p>（4）方便局域网用户</p><p>在很多单位的局域网中，会有服务器提供给用户使用。但由于局域网中一般很少架设DNS服务器，访问这些服务器时，要输入难记的IP地址。这对不少人来说相当麻烦。可以分别给这些服务器取个容易记住的名字，然后在Hosts中建立IP映射，这样以后访问的时候，只要输入这个服务器的名字就行了。</p><p>（5）顺利连接系统</p><p>对于Lotus的服务器和一些数据库服务器，在访问时如果直接输入IP地址那是不能访问的，只能输入服务器名才能访问。那么我们配置好Hosts文件，这样输入服务器名就能顺利连接了。</p><p>（6）强制域名解析指定IP</p><p>比如一些网站有很多的服务器ip，有些ip可能被和谐了，那么我们可以在hosts文件里添加我们想要的ip跟域名。</p><p>2.更改hosts文件<br>访问老D博客（laod.cn），下载最新hosts文件，跟换原hosts文件，打开google浏览器<br>原hosts所在文件夹：<br>                          Windows 系统hosts位于 C:\Windows\System32\drivers\etc\hosts<br>                          Android（安卓）系统hosts位于 /etc/hosts<br>                          Mac（苹果电脑）系统hosts位于 /etc/hosts<br>                          iPhone（iOS）系统hosts位于 /etc/hosts<br>                          Linux系统hosts位于 /etc/hosts<br>                          绝大多数Unix系统都是在 /etc/hosts<br>注：目前暂不支持Google Chrome/Chromium的正式版本，以及<br>       基于Chromium内核的浏览器；<br>       建议使用最新的Chrome Canary金丝雀版，或者最新的Dev开发版。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1Hosts具体作用&lt;/p&gt;
+&lt;p&gt;（1）虚拟域名&lt;/p&gt;
+&lt;p&gt;很多时候，网站建设者需要把”软环境“搭建好，再进行上传调试。但类似于邮件服务，则需要使用域名来辅助调试，这时就可以将本地 IP 地址与一个”虚拟域名“做地址指向，就可以达到要求的效果，且无需花费。&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>markdown学习</title>
+    <link href="http://yoursite.com/2020/03/21/markdown%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/03/21/markdown%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-03-21T13:12:13.000Z</published>
+    <updated>2020-03-21T13:14:30.242Z</updated>
+    
+    <content type="html"><![CDATA[<p>#markdown快速入门（typora）</p><p>##代码块：<br>         1.<code>java//这就是java的语言          2.</code>shell//这就是shell脚本</p><p>##标题：<br>       6个标题等级<br>    # 一级标题<br>    ## 二级标题<br>   …………………..</p><p>按住ctrl+shift+1就可以看到结构图，层级结构图</p><p>字体<br><strong>加粗</strong><br>==代码高亮==<br><del>删除线</del><br><em>斜体内容</em></p><p>引用</p><blockquote><p>作者：二狗子</p><blockquote><p>作者：二狗子</p><blockquote><p>作者：二狗子</p></blockquote></blockquote></blockquote><p>分割线<br>—或者***</p><p>##图片插入<br>//在线图片/本地图片<br>！[我的照片]（/image/me4.png即为本地图片路径或者复制网上图片路径）</p><p>超链接<br>[我的github]（复制网址）</p><p>##无序列表语法</p><ul><li>目录1</li><li>目录2</li><li>目录3</li></ul><p>##表格<br>鼠标右键插入</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#markdown快速入门（typora）&lt;/p&gt;
+&lt;p&gt;##代码块：&lt;br&gt;         1.&lt;code&gt;java//这就是java的语言
+          2.&lt;/code&gt;shell//这就是shell脚本&lt;/p&gt;
+&lt;p&gt;##标题：&lt;br&gt;       6个标题
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>My blog</title>
