@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-22T05:19:35.104Z</updated>
+  <updated>2020-03-22T05:42:53.098Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图片url地址</title>
+    <link href="http://yoursite.com/2020/03/22/%E5%9B%BE%E7%89%87url%E5%9C%B0%E5%9D%80/"/>
+    <id>http://yoursite.com/2020/03/22/%E5%9B%BE%E7%89%87url%E5%9C%B0%E5%9D%80/</id>
+    <published>2020-03-22T05:38:50.000Z</published>
+    <updated>2020-03-22T05:42:53.098Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="获取图片URL地址"><a href="#获取图片URL地址" class="headerlink" title="获取图片URL地址"></a>获取图片URL地址</h1><p>　在写博客插入图片时，许多时候需要提供图片的url地址。作为菜鸡的我，自然是一脸懵逼。那么什么是所谓的url地址呢？又该如何获取图片的url地址呢？</p><p>​    首先来看一下度娘对url地址的解释：url是统一资源定位符，对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的url，它包含的信息指出文件的位置以及浏览器应该怎么处理它。</p><p>​    简单来说，url地址是是用来定位、访问网上资源用的。常见的网址也属于url地址。那么该如何获取一张图片的url地址呢？</p><p>​    url既然是用来访问网络资源的，所以在获取url地址前，得先把本地的图片上传到网络上去。那么该把本地的图片上传到哪里呢？这时候，你就不得不接触一个新事物了——图床。</p><p>​    再看一下度娘对图床的解释：图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p><p>​    具体选用哪个图床，可以自行百度、选择。这里以SM.MS(<a href="https://sm.ms/" target="_blank" rel="noopener">https://sm.ms/</a>, 国外一家免费且免注册的图床)为例，讲一下获取url的流程。</p><p>​    1、进入网站后，点击右下角“Browse…”按钮，即可弹出在本地选择图片界面。选中图片，单击“打开”按钮。</p><p>​    2、单击“打开”后的界面如下所示。再单击“Upload”按钮，即可上传图片。</p><p>　3、上传成功，即可在网页靠下部分生成该图片的url地址。大功告成！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;获取图片URL地址&quot;&gt;&lt;a href=&quot;#获取图片URL地址&quot; class=&quot;headerlink&quot; title=&quot;获取图片URL地址&quot;&gt;&lt;/a&gt;获取图片URL地址&lt;/h1&gt;&lt;p&gt;　在写博客插入图片时，许多时候需要提供图片的url地址。作为菜鸡的我，自然是一脸懵逼
+      
+    
+    </summary>
+    
+    
+      <category term="google" scheme="http://yoursite.com/categories/google/"/>
+    
+    
+      <category term="ways" scheme="http://yoursite.com/tags/ways/"/>
+    
+  </entry>
   
   <entry>
     <title>google浏览器下载视频</title>
