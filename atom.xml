@@ -47,15 +47,15 @@
     <link href="http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
     <id>http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</id>
     <published>2020-03-21T13:16:04.000Z</published>
-    <updated>2020-03-22T05:19:35.104Z</updated>
+    <updated>2020-03-27T12:19:42.823Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="网站视频下载"><a href="#网站视频下载" class="headerlink" title="网站视频下载"></a>网站视频下载</h1><p>​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，打开这个视频网页，右键另存为本地。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="网站视频下载"><a href="#网站视频下载" class="headerlink" title="网站视频下载"></a>网站视频下载</h1><p>​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，[如图]（<a href="https://i.loli.net/2020/03/27/KexM35Jkm9BXQbI.png）" target="_blank" rel="noopener">https://i.loli.net/2020/03/27/KexM35Jkm9BXQbI.png）</a></p><p>通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，<br>[如图]（<a href="https://i.loli.net/2020/03/27/r2UnEVdqsAGXmQM.png）" target="_blank" rel="noopener">https://i.loli.net/2020/03/27/r2UnEVdqsAGXmQM.png）</a><br>然后打开这个视频网页，右键另存为本地。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;网站视频下载&quot;&gt;&lt;a href=&quot;#网站视频下载&quot; class=&quot;headerlink&quot; title=&quot;网站视频下载&quot;&gt;&lt;/a&gt;网站视频下载&lt;/h1&gt;&lt;p&gt;​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，通常文件大小最大的
+        &lt;h1 id=&quot;网站视频下载&quot;&gt;&lt;a href=&quot;#网站视频下载&quot; class=&quot;headerlink&quot; title=&quot;网站视频下载&quot;&gt;&lt;/a&gt;网站视频下载&lt;/h1&gt;&lt;p&gt;​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，[如图]（&lt;a h
       
     
     </summary>
