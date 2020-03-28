@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-28T06:04:30.908Z</updated>
+  <updated>2020-03-28T06:12:31.432Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/03/28/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
     <id>http://yoursite.com/2020/03/28/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</id>
     <published>2020-03-28T05:28:30.000Z</published>
-    <updated>2020-03-28T06:04:30.908Z</updated>
+    <updated>2020-03-28T06:12:31.432Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><p>现在默认的域名还是<code>xxx.github.io</code>，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。</p><p>以我的阿里云为例，如下图所示，添加两条解析记录：</p><p><img src="https://i.loli.net/2020/03/28/dvrVxwqX9hMaCR4.png" alt="如图"></p><p>然后打开你的github博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存:</p><p><img src="https://i.loli.net/2020/03/28/WqhA6S9sjkZCifc.png" alt="如图"></p><p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source</code>目录，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><p>现在默认的域名还是<code>xxx.github.io</code>，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。</p><p>以我的阿里云为例，如下图所示，添加两条解析记录：</p><p><img src="https://i.loli.net/2020/03/28/dvrVxwqX9hMaCR4.png" alt="  "></p><p>然后打开你的github博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存:</p><p><img src="https://i.loli.net/2020/03/28/WqhA6S9sjkZCifc.png" alt="  "></p><p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source</code>目录，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p>]]></content>
     
     <summary type="html">
     
@@ -69,15 +69,16 @@
     <link href="http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
     <id>http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</id>
     <published>2020-03-21T13:16:04.000Z</published>
-    <updated>2020-03-27T12:30:55.369Z</updated>
+    <updated>2020-03-28T06:11:47.549Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="网站视频下载"><a href="#网站视频下载" class="headerlink" title="网站视频下载"></a>网站视频下载</h1><p>​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，然后打开这个视频网页，右键另存为本地。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="网站视频下载"><a href="#网站视频下载" class="headerlink" title="网站视频下载"></a>网站视频下载</h1><p>​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，</p><img src="https://i.loli.net/2020/03/28/P4ZD9RHWokhaB5U.png" alt="  " style="zoom:80%;" /><p>通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，</p><img src="https://i.loli.net/2020/03/28/3HydogQAkKu14SB.png" alt="  " style="zoom: 50%;" /><p>然后打开这个视频网页，右键另存为本地。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;网站视频下载&quot;&gt;&lt;a href=&quot;#网站视频下载&quot; class=&quot;headerlink&quot; title=&quot;网站视频下载&quot;&gt;&lt;/a&gt;网站视频下载&lt;/h1&gt;&lt;p&gt;​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，通常文件大小最大的
+        &lt;h1 id=&quot;网站视频下载&quot;&gt;&lt;a href=&quot;#网站视频下载&quot; class=&quot;headerlink&quot; title=&quot;网站视频下载&quot;&gt;&lt;/a&gt;网站视频下载&lt;/h1&gt;&lt;p&gt;​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，&lt;/p&gt;
+&lt;img
       
     
     </summary>
