@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-28T05:28:30.970Z</updated>
+  <updated>2020-03-28T05:58:14.689Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,16 @@
     <link href="http://yoursite.com/2020/03/28/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/"/>
     <id>http://yoursite.com/2020/03/28/%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/</id>
     <published>2020-03-28T05:28:30.000Z</published>
-    <updated>2020-03-28T05:28:30.970Z</updated>
+    <updated>2020-03-28T05:58:14.689Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h1><p>现在默认的域名还是<code>xxx.github.io</code>，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。</p><p>以我的阿里云为例，如下图所示，添加两条解析记录：</p><p><a href="https://i.loli.net/2020/03/28/dvrVxwqX9hMaCR4.png" target="_blank" rel="noopener">如图</a></p><p>然后打开你的github博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存:</p><p><a href="https://i.loli.net/2020/03/28/WqhA6S9sjkZCifc.png" target="_blank" rel="noopener">如图</a></p><p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source</code>目录，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;绑定域名&quot;&gt;&lt;a href=&quot;#绑定域名&quot; class=&quot;headerlink&quot; title=&quot;绑定域名&quot;&gt;&lt;/a&gt;绑定域名&lt;/h1&gt;&lt;p&gt;现在默认的域名还是&lt;code&gt;xxx.github.io&lt;/code&gt;，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，
+      
     
     </summary>
     
