@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-02T12:58:41.978Z</updated>
+  <updated>2020-04-02T13:32:02.981Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客重新发布文章问题</title>
+    <link href="http://yoursite.com/2020/04/02/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/04/02/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%96%B0%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0%E9%97%AE%E9%A2%98/</id>
+    <published>2020-04-02T13:22:22.000Z</published>
+    <updated>2020-04-02T13:32:02.981Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="个人博客重新发布文章无法正常访问"><a href="#个人博客重新发布文章无法正常访问" class="headerlink" title="个人博客重新发布文章无法正常访问"></a>个人博客重新发布文章无法正常访问</h1><p>对于已绑定域名的网站，本地上传github项目，重新打开网页时出现        <em>404           There isn’t GitHub Pages site here</em>.</p><p><img src="https://i.loli.net/2020/04/02/dAie4jHzkbuftVq.png" alt=" "></p><p><strong>解决办法</strong>: 只需登录github重新保存项目域名即可.</p><p><img src="https://i.loli.net/2020/04/02/yfrZVJCPYj8bGNz.png" alt=" "></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>绑定域名</title>
