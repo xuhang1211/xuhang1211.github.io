@@ -73,7 +73,7 @@
     <link href="http://yoursite.com/2020/03/22/%E5%9B%BE%E7%89%87url%E5%9C%B0%E5%9D%80/"/>
     <id>http://yoursite.com/2020/03/22/%E5%9B%BE%E7%89%87url%E5%9C%B0%E5%9D%80/</id>
     <published>2020-03-22T05:38:50.000Z</published>
-    <updated>2020-03-28T12:51:35.327Z</updated>
+    <updated>2020-04-02T13:52:03.938Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=857905&auto=1&height=66"></iframe><h1 id="获取图片URL地址"><a href="#获取图片URL地址" class="headerlink" title="获取图片URL地址"></a>获取图片URL地址</h1><p>　在写博客插入图片时，许多时候需要提供图片的url地址。作为菜鸡的我，自然是一脸懵逼。那么什么是所谓的url地址呢？又该如何获取图片的url地址呢？</p><p>​    首先来看一下度娘对url地址的解释：url是统一资源定位符，对可以从互联网上得到的资源的位置和访问方法的一种简洁的表示，是互联网上标准资源的地址。互联网上的每个文件都有一个唯一的url，它包含的信息指出文件的位置以及浏览器应该怎么处理它。</p><p>​    简单来说，url地址是是用来定位、访问网上资源用的。常见的网址也属于url地址。那么该如何获取一张图片的url地址呢？</p><p>​    url既然是用来访问网络资源的，所以在获取url地址前，得先把本地的图片上传到网络上去。那么该把本地的图片上传到哪里呢？这时候，你就不得不接触一个新事物了——图床。</p><p>​    再看一下度娘对图床的解释：图床一般是指储存图片的服务器，有国内和国外之分。国外的图床由于有空间距离等因素决定访问速度很慢影响图片显示速度。国内也分为单线空间、多线空间和cdn加速三种。</p><p>​    具体选用哪个图床，可以自行百度、选择。这里以SM.MS(<a href="https://sm.ms/" target="_blank" rel="noopener">https://sm.ms/</a>, 国外一家免费且免注册的图床)为例，讲一下获取url的流程。</p><p>​    1、进入网站后，点击右下角“Browse…”按钮，即可弹出在本地选择图片界面。选中图片，单击“打开”按钮。</p><p>​    2、单击“打开”后的界面如下所示。再单击“Upload”按钮，即可上传图片。</p><p>　3、上传成功，即可在网页靠下部分生成该图片的url地址。大功告成！</p>]]></content>
     
@@ -87,10 +87,10 @@
     </summary>
     
     
-      <category term="google" scheme="http://yoursite.com/categories/google/"/>
+      <category term="antics" scheme="http://yoursite.com/categories/antics/"/>
     
     
-      <category term="ways" scheme="http://yoursite.com/tags/ways/"/>
+      <category term="URL" scheme="http://yoursite.com/tags/URL/"/>
     
   </entry>
   
@@ -99,7 +99,7 @@
     <link href="http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/"/>
     <id>http://yoursite.com/2020/03/21/google%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8B%E8%BD%BD%E8%A7%86%E9%A2%91/</id>
     <published>2020-03-21T13:16:04.000Z</published>
-    <updated>2020-03-28T12:50:50.518Z</updated>
+    <updated>2020-04-02T13:51:36.774Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=857891&auto=1&height=66"></iframe><h1 id="网站视频下载"><a href="#网站视频下载" class="headerlink" title="网站视频下载"></a>网站视频下载</h1><p>​    打开你需要下载视频的网站，F12，点击network, F5刷新，找到视频文件，</p><img src="https://i.loli.net/2020/03/28/P4ZD9RHWokhaB5U.png" alt="  " style="zoom:80%;" /><p>通常文件大小最大的那个即为当前播放视频文件，点击视频文件，找到Headers下面的Request URL复制这个地址，</p><img src="https://i.loli.net/2020/03/28/3HydogQAkKu14SB.png" alt="  " style="zoom: 50%;" /><p>然后打开这个视频网页，右键另存为本地。</p>]]></content>
     
@@ -116,7 +116,7 @@
       <category term="google" scheme="http://yoursite.com/categories/google/"/>
     
     
-      <category term="ways" scheme="http://yoursite.com/tags/ways/"/>
+      <category term="download" scheme="http://yoursite.com/tags/download/"/>
     
   </entry>
   
@@ -203,7 +203,7 @@
     <link href="http://yoursite.com/2020/03/20/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/03/20/%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-03-20T02:20:09.000Z</published>
-    <updated>2020-03-28T12:50:12.371Z</updated>
+    <updated>2020-04-02T13:52:55.692Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><iframe frameborder="40" border="40" marginwidth="40" marginheight="40" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=433107530&auto=1&height=66"></iframe><h1 id="小白心得"><a href="#小白心得" class="headerlink" title="小白心得"></a>小白心得</h1><p>hey guys ╭(●｀∀´●)╯╰(●’◡’●)╮ (●’◡’●)ﾉ ヾ(<em>´▽‘</em>)ﾉ</p><p>欢迎大家阅读本文</p><p>2020/3/1开始搭建自己的博客，作为一名萌新，我还是很幸运的！终于在2020/3/20 22：18：44初步建成自己的博客，我认为这是一个很值得纪念的时刻，所以我精确到了分秒，毕竟这次的建站耗费了我许久的时间  ˃̣̣̥᷄⌓˂̣̣̥᷅    当完成hexo主题背景图片的更换，上传能正常浏览时, 我还是很激动的  乁( ˙ ω˙乁)觉得之前花的时间没有白费。</p><p>在制作blog期间，我一次又一次删除自己的blog文件，起初是因为没有连接Github与本地，后来是因为修改主题出现了问题，不得不佩服的自己的耐心，|･ω･｀)</p><p>2020年3月期间搭建了自己的博客，呕心沥血这些天，终于初步建立起了，在此感谢B站的小伙伴们，以及github社区的朋友们。</p>]]></content>
     
@@ -220,7 +220,7 @@
       <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
     
     
-      <category term="thinks" scheme="http://yoursite.com/tags/thinks/"/>
+      <category term="opinion" scheme="http://yoursite.com/tags/opinion/"/>
     
   </entry>
   
